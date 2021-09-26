@@ -1,0 +1,87 @@
+.container {
+    margin: 0 auto;
+    max-width: 800px;
+}
+hr {
+    width: 100%;
+}
+
+.first_task, .task_second, .task_third, .task_fourth {
+    margin-bottom: 20px;
+}
+.main_title {
+    font-weight: bold;
+    font-size: 25px;
+    padding: 20px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    width: 115px;
+    text-align: center;
+    margin: auto;
+}
+.open_button {
+    background: rgb(197, 154, 154);
+    padding: 20px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    text-align: center;
+    color: ivory;
+    margin: 20px 0px 10px 0px;
+}
+.main_title {
+    background: rgb(70, 97, 97);
+    color: ivory;
+    font-weight: bold;
+    font-size: 25px;
+    align-self: center;
+    padding: 20px;
+    background: rgb(167, 139, 139);
+    border: 1px solid transparent;
+    border-radius: 20px;
+    color: ivory;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 150px;
+}
+
+.task_question, .task_second, .task_third, .task_fourth {
+    padding: 50px;
+    padding-top: 15px;
+    background: rgb(70, 97, 97);
+    font-size: 20px;
+    color: ivory;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin: 0;
+}
+
+.short_button {
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background: rgb(133, 100, 100);
+    padding: 10px;
+    color: ivory;
+    text-align: center;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.short_buttons {
+    padding: 20px;
+    background: rgb(70, 97, 97);
+    border: 1px solid transparent;
+    border-radius: 20px;
+    width: 200px;
+    margin: auto;
+}
+.list_style {
+    list-style-type: none;
+    margin: 0;
+}
+
+.task_fourth {
+    margin-top: 30px;
+}
